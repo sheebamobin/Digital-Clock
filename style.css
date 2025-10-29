@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4f772d;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    background-color: #132a13;
+    color: #ecf39e;
+    padding: clamp(2rem, 6vw, 5rem);
+    border-radius: 15px;
+    font-size: 8vw;
+    text-align: center;
+    box-shadow: 0 4px 15px #90a955;
+    width: 90%;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #ecf39e;
+    height: 100vh;
+}
+
+.clock:hover {
+    background-color: #132a13;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
